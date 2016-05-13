@@ -1,13 +1,13 @@
-# seamless-immutable-diff [![Build Status](https://travis-ci.org/micnews/seamless-immutable-diff.png?branch=master)](https://travis-ci.org/micnews/seamless-immutable-diff)
+# dedupe-objects [![Build Status](https://travis-ci.org/micnews/dedupe-objects.png?branch=master)](https://travis-ci.org/micnews/dedupe-objects)
 
-Given two objects, get the seamless-immutable-diff between them
+Given two objects, reuse common objects between the both objects
 
 ## Installation
 
 Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't already.
 
 ```sh
-npm install seamless-immutable-diff --save
+npm install dedupe-objects --save
 ```
 
 ## Usage

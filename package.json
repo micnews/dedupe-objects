@@ -1,7 +1,7 @@
 {
-  "name": "seamless-immutable-diff",
-  "version": "1.0.3",
-  "description": "Given two objects, get the seamless-immutable-diff between them",
+  "name": "dedupe-objects",
+  "version": "0.0.0",
+  "description": "Given two objects, reuse common objects between the both objects",
   "main": "dist/index.js",
   "scripts": {
     "benchmark": "babel-node benchmark.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/micnews/seamless-immutable-diff.git"
+    "url": "git+https://github.com/micnews/dedupe-objects.git"
   },
   "author": "mic.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/micnews/seamless-immutable-diff/issues"
+    "url": "https://github.com/micnews/dedupe-objects/issues"
   },
-  "homepage": "https://github.com/micnews/seamless-immutable-diff#readme",
+  "homepage": "https://github.com/micnews/dedupe-objects#readme",
   "devDependencies": {
     "ava": "^0.14.0",
     "babel-cli": "^6.6.5",
