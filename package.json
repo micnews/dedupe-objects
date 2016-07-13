@@ -1,6 +1,6 @@
 {
   "name": "dedupe-objects",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Given two objects, reuse common objects between the both objects",
   "main": "dist/index.js",
   "scripts": {
