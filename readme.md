@@ -13,16 +13,15 @@ npm install dedupe-objects --save
 ## Usage
 
 ```js
-import diff from 'seamless-immutable-diff';
-import Immutable from 'seamless-immutable';
+import dedupe from 'dedupe-objects';
 
-const from = Immutable({ beep: { boop: true }, foo: { bar: false } });
+const from = { beep: { boop: true }, foo: { bar: false } };
 const to = { beep: { hello: 'world' }, foo: { bar: false } };
-const result = diff(from, to);
+const result = dedupe(from, to);
 
 // will be true since from.foo is deep equal to to.foo
 console.log(from.foo === result.foo);
-// will be a seamless-immutable object { hello: 'world' }
+// will be an object { hello: 'world' }
 console.log(result.beep);
 
 ```
@@ -47,7 +46,6 @@ npm test
 - [babel-preset-es2015](https://github.com/babel/babel/tree/master/packages): Babel preset for all es2015 plugins.
 - [nyc](https://github.com/bcoe/nyc): a code coverage tool that works well with subprocesses.
 - [package-json-to-readme](https://github.com/zeke/package-json-to-readme): Generate a README.md from package.json contents
-- [seamless-immutable](https://github.com/rtfeldman/seamless-immutable): Immutable data structures for JavaScript which are backwards-compatible with normal JS Arrays and Objects.
 - [semistandard](https://github.com/Flet/semistandard): All the goodness of `feross/standard` with semicolons sprinkled on top.
 - [snazzy](https://github.com/feross/snazzy): Format JavaScript Standard Style as Stylish (i.e. snazzy) output
 
