@@ -37,6 +37,7 @@ npm test
 
 - [dift](https://github.com/ashaffer/dift): Super fast list diff algorithm
 - [immutable-array-methods](https://github.com/micnews/immutable-array-methods): Immutable versions of normally mutable array methods, such as pop(), push(), splice()
+- [immutable-object-methods](https://github.com/micnews/immutable-object-methods): Update normal plain javascript object, immutable style. Simlar to how immutable.js, seamless-immutable etc does it but a lot smaller and simpler.
 
 ## Dev Dependencies
 
