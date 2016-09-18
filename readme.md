@@ -41,11 +41,11 @@ npm test
 
 ## Dev Dependencies
 
-- [ava](https://github.com/sindresorhus/ava): Futuristic test runner 🚀
+- [ava](https://github.com/avajs/ava): Futuristic test runner 🚀
 - [babel-cli](https://github.com/babel/babel/tree/master/packages): Babel command line.
 - [babel-core](https://github.com/babel/babel/tree/master/packages): Babel compiler core.
 - [babel-preset-es2015](https://github.com/babel/babel/tree/master/packages): Babel preset for all es2015 plugins.
-- [nyc](https://github.com/bcoe/nyc): a code coverage tool that works well with subprocesses.
+- [nyc](https://github.com/istanbuljs/nyc): the Istanbul command line interface
 - [package-json-to-readme](https://github.com/zeke/package-json-to-readme): Generate a README.md from package.json contents
 - [semistandard](https://github.com/Flet/semistandard): All the goodness of `feross/standard` with semicolons sprinkled on top.
 - [snazzy](https://github.com/feross/snazzy): Format JavaScript Standard Style as Stylish (i.e. snazzy) output
